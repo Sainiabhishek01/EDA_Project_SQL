@@ -1,21 +1,15 @@
+/*===============================================================================
+Data Segmentation Analysis
+--===============================================================================
+Purpose:
+    - To group data into meaningful categories for targeted insights.
+    - For customer segmentations.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SQL Functions Used:
+    - CASE: Defines custom segmentation logic.
+    - GROUP BY: Groups data into segments.
+===============================================================================
+*/
 
 
 
