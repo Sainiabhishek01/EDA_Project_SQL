@@ -1,3 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Group restaurant customers into three segments based on their monthly visit frequency:
     - Regular Customers: Customers who visited more than 5 times in a month.
@@ -24,6 +46,9 @@ Select
 		Else 'One-time'
 	End Customer_Type
 	From Sales.orders
-	Group BY First_Name+' '+Last_Name, Month(Order_Date)
+	Group BY 
+		First_Name+' '+Last_Name, 
+		Month(Order_Date)
 	)t 
-	Group By Customer_Type
+	Group By 
+		Customer_Type
