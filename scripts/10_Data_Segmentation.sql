@@ -9,12 +9,7 @@ SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 ===============================================================================
-*/
 
-
-
-
-/*
 Group restaurant customers into three segments based on their monthly visit frequency:
     - Regular Customers: Customers who visited more than 5 times in a month.
     - Occasional Customers: Customers who visited 2 to 5 times in a month.
@@ -24,8 +19,9 @@ This segmentation provides insights into customer engagement and dining patterns
 helping the restaurant tailor marketing campaigns, loyalty programs, and improve service for different customer groups.
 
 The query also summarizes the total number of customers in each segment for better business understanding.
-*/
-Select 
+Select */
+
+Select
 	Customer_Type,
 	Count(*) As Total_Customers
 From 
